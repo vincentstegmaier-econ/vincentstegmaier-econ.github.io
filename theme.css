@@ -41,14 +41,6 @@ h2 { letter-spacing: -.028em; }
 
 .portrait-frame img { border-radius: .65rem; }
 
-.group-heading {
-  color: var(--accent);
-  font-size: .78rem;
-  font-weight: 600;
-  letter-spacing: .09em;
-  text-transform: uppercase;
-}
-
 .publication .research-figure { width: min(100%, 23rem); }
 
 @media (min-width: 661px) {

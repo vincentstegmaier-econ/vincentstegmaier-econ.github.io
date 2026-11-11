@@ -35,8 +35,8 @@ body {
   font: 1rem/1.7 Lora, Georgia, serif;
 }
 
-h1, h2, h3, h4, p, ul { margin: 0; }
-h1, h2, h3, h4 { line-height: 1.28; }
+h1, h2, h3, p, ul { margin: 0; }
+h1, h2, h3 { line-height: 1.28; }
 a { color: inherit; text-underline-offset: .22em; }
 a:hover { color: var(--accent); }
 a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
@@ -162,7 +162,6 @@ h1 {
 .section-heading { margin-bottom: 1.5rem; }
 h2 { font-size: clamp(1.8rem, 4vw, 2.65rem); font-weight: 400; letter-spacing: -.035em; }
 h3 { font-size: 1.3rem; font-weight: 500; }
-h4 { font-size: 1.12rem; font-weight: 500; }
 .publication {
   display: grid;
   grid-template-columns: clamp(10rem, 23vw, 16rem) minmax(0, 1fr);
@@ -178,7 +177,6 @@ h4 { font-size: 1.12rem; font-weight: 500; }
 .publication-details { color: var(--muted); margin-top: .28rem; }
 .paper-summary { max-width: 43rem; margin-top: .85rem; }
 .paper-links { color: var(--muted); margin-top: .8rem; font-size: .93rem; }
-.group-heading { margin-bottom: .85rem; font-size: 1rem; color: var(--muted); }
 
 .research-projects {
   display: grid;
@@ -210,7 +208,7 @@ h4 { font-size: 1.12rem; font-weight: 500; }
 .figure-link { display: block; margin-top: .35rem; font-size: .85rem; text-decoration: underline; }
 .entries { max-width: 49rem; padding: 0; list-style: none; }
 .entries li + li { border-top: 1px solid var(--rule); padding-top: .85rem; margin-top: .85rem; }
-.courses h3 { font-size: 1.12rem; }
+.research-projects h3, .courses h3 { font-size: 1.12rem; }
 .courses p { margin-top: .2rem; color: var(--muted); }
 
 .contact { background: var(--slate); color: #fff; padding-block: 2.65rem 3.1rem; }
